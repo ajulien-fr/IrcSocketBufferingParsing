@@ -1,7 +1,9 @@
 # IrcSocketBufferingParsing
 
-The beginning of a client or an IRC robot.
+Un bot IRC tout simple.
 
-Windows and Unix sockets management with select() and parser are implemented.
+Le code se compose de la gestion des sockets Windows && UNIX avec l'utilisation de select() et le parseur qui va bien.
 
-This code also demonstrates a certain buffering technique.
+J'ai utilisé ce bot irc pour afficher la sortie de mdisass (les 256 premières instructions) sur un canal irc dans les années 2012. Pour exécuter mdisass, j'utilisais tout simplement popen()
+
+Le code démontre aussi une certaine technique de buffering (voir set_irc_buffer)
